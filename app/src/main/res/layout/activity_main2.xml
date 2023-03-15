@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/lab1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab1_1" />
+
+        <Button
+            android:id="@+id/lab1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab1_2" />
+
+        <Button
+            android:id="@+id/lab2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab2_1" />
+
+        <Button
+            android:id="@+id/lab2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab2_2" />
+
+        <Button
+            android:id="@+id/lab2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab2_5" />
+
+        <Button
+            android:id="@+id/lab2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab2_6" />
+
+        <Button
+            android:id="@+id/lab3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab3_1" />
+
+        <Button
+            android:id="@+id/lab3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab3_2" />
+
+        <Button
+            android:id="@+id/lab3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab3_3" />
+
+        <Button
+            android:id="@+id/lab4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab4_1" />
+
+        <Button
+            android:id="@+id/lab4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab4_2" />
+        <Button
+            android:id="@+id/lab4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lab4_3" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
