@@ -8,9 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
-
 public class MainApp extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +28,12 @@ public class MainApp extends AppCompatActivity {
         Intent lab4_1 = new Intent(this, Lab4_1.class);
         Intent lab4_2 = new Intent(this, Lab4_2.class);
         Intent lab4_3 = new Intent(this, Lab4_3.class);
+        Intent lab5_1 = new Intent(this, Lab5_1.class);
+        Intent lab5_2 = new Intent(this, Lab5_2.class);
+        Intent lab5_3 = new Intent(this, Lab5_3.class);
+        Intent lab5_4 = new Intent(this, Lab5_4.class);
+        Intent lab6_1 = new Intent(this, Lab6_1.class);
+        Intent lab6_2 = new Intent(this, Lab6_2.class);
 
         findViewById(R.id.lab1_1).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,22 +76,26 @@ public class MainApp extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(lab3_1);
             }
-        });findViewById(R.id.lab3_2).setOnClickListener(new View.OnClickListener() {
+        });
+        findViewById(R.id.lab3_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(lab3_2);
             }
-        });findViewById(R.id.lab3_3).setOnClickListener(new View.OnClickListener() {
+        });
+        findViewById(R.id.lab3_3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(lab3_3);
             }
-        });findViewById(R.id.lab4_1).setOnClickListener(new View.OnClickListener() {
+        });
+        findViewById(R.id.lab4_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(lab4_1);
             }
-        });findViewById(R.id.lab4_2).setOnClickListener(new View.OnClickListener() {
+        });
+        findViewById(R.id.lab4_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(lab4_2);
@@ -99,9 +107,42 @@ public class MainApp extends AppCompatActivity {
                 startActivity(lab4_3);
             }
         });
-
-
-
+        findViewById(R.id.lab5_1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(lab5_1);
+            }
+        });
+        findViewById(R.id.lab5_2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(lab5_2);
+            }
+        });
+        findViewById(R.id.lab5_3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(lab5_3);
+            }
+        });
+        findViewById(R.id.lab5_4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(lab5_4);
+            }
+        });
+        findViewById(R.id.lab6_1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(lab6_1);
+            }
+        });
+        findViewById(R.id.lab6_2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(lab6_2);
+            }
+        });
 
     }
 }
