@@ -22,6 +22,7 @@ public class Lab2_5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_lab25);
         setContentView(new NewView(this));
+        
 
     }
     public boolean onCreateOptionsMenu(Menu menu)
